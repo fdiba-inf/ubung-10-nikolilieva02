@@ -41,7 +41,6 @@ public abstract class Figure implements ClickListener {
         boolean sameSide2 = Utils.equals(side2, otherFigure.side2);
         boolean sameSide1Reversed = Utils.equals(side1, otherFigure.side2);
         boolean sameSide2Reversed = Utils.equals(side2, otherFigure.side1);
-
-        return (sameSide1 && sameSide2) || (sameSide1Reversed && sameSide2Reversed);
+return (sameSide1 && sameSide2) || (sameSide1Reversed && sameSide2Reversed);
     }
 }
